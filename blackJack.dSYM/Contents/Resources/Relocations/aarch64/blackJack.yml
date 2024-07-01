@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ranhaber/Documents/programing/c/BlackJack/blackJack'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _getCardValue, symObjAddr: 0x0, symBinAddr: 0x100003668, symSize: 0x264 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _getCardValue, symObjAddr: 0x0, symBinAddr: 0x100003668, symSize: 0x264 }
+  - { offsetInCU: 0x69, offset: 0x69, size: 0x8, addend: 0x0, symName: _initDeck, symObjAddr: 0x264, symBinAddr: 0x1000038CC, symSize: 0x134 }
+  - { offsetInCU: 0xEF, offset: 0xEF, size: 0x8, addend: 0x0, symName: _shuffleDeck, symObjAddr: 0x398, symBinAddr: 0x100003A00, symSize: 0xA4 }
+  - { offsetInCU: 0x159, offset: 0x159, size: 0x8, addend: 0x0, symName: _dealCard, symObjAddr: 0x43C, symBinAddr: 0x100003AA4, symSize: 0x80 }
+  - { offsetInCU: 0x18F, offset: 0x18F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x4BC, symBinAddr: 0x100003B24, symSize: 0x2F8 }
+...
